@@ -7,9 +7,6 @@
 
 <!-- panvimdoc-ignore-end -->
 
-> [!WARNING]
-> The project is new, does not have releases and is a Work in Progress. Therefore interfaces can change frequently
-
 A minimal Neovim statusline written in Lua.
 Do we need another statusline? Probably not, do we have one? Yep
 
@@ -140,6 +137,7 @@ require('slimline').setup {
     },
     folder = ' ',
     lines = ' ',
+    recording = ' ',
   },
 }
 ```
